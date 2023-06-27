@@ -1,0 +1,106 @@
+*{
+   margin: 0;
+   padding: 0;
+}
+
+body{
+  background-color: #e7e7e7;
+}
+
+.heading{
+   font-size: 3vw;
+   margin-top: 3vw;
+   text-align: center;
+   color: #040926;
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+p{
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-bottom: 3vw;
+}
+
+div .name input,.addme{
+    margin-top: 1vw;
+    margin-left: 29.5vw;
+    height: 3vw;
+    width: 40vw;
+    font-size: 1.1vw;
+    padding-left: 0.5vw;
+}
+
+.addme{
+    margin: 23px;
+    height: 3vw;
+    width: 20.6vw;
+}
+
+.table{
+    margin-left: 15vw;
+    margin-right: 15vw;
+}
+
+.rowSetting{
+    display: flex;
+    justify-content: space-between;
+}
+
+.addmebtn{
+    margin-top: 1vw;
+    margin-bottom: 3vw;
+    margin-left: 39vw;
+}
+
+@media only screen and (max-width: 764px) {
+    .heading{
+        font-size: 4vw;   
+     }
+    
+     div .name input,.addme{
+         height: 4vw;
+         font-size: 1.5vw;
+         padding-left: 0.5vw;
+         
+     }
+     
+     .addme{
+         height: 5vw;
+     }
+
+     .addmebtn button{
+          font-size: 1.5vw;
+     }
+    
+    
+  }
+
+
+  @media only screen and (max-width: 450px) {
+    .heading{
+        font-size: 5vw;   
+     }
+
+     p{
+        font-size: 3.2vw;
+     }
+    
+     div .name input{
+         height: 5vw;
+         font-size: 2vw;
+         width: 60vw;
+         margin-left: 18.9vw;
+     }
+     
+     .addme{
+         height: 5vw;
+         width: 22vw;
+         
+     }
+
+     .addmebtn button{
+          font-size: 1.5vw;
+     }
+    
+    
+  }  
